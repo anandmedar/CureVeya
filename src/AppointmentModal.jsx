@@ -101,7 +101,7 @@ export default function AppointmentModal({ isOpen, onClose }) {
           </div>
         ) : (
           <>
-            <p className="appointment-kicker">CureVeya Surgical Care · Bangalore</p>
+            <p className="appointment-kicker">CureVeya Surgical Care · Bangalore · Hyderabad</p>
             <h2 id="appointment-modal-title">Book your appointment</h2>
             <p className="appointment-intro">Share your details and Coordinator will guide you towards the right next step.</p>
             <form className="appointment-form" noValidate onSubmit={submitAppointment}>
