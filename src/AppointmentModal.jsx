@@ -124,10 +124,10 @@ export default function AppointmentModal({ isOpen, onClose }) {
               </div>
               <div className="appointment-field-grid">
                 <div className="appointment-field">
-                  <label htmlFor="appointment-service">Speciality <span aria-hidden="true">*</span></label>
+                  <label htmlFor="appointment-service">Treatments <span aria-hidden="true">*</span></label>
                   <select id="appointment-service" name="service" value={form.service} onChange={updateField} aria-invalid={Boolean(errors.service)} aria-describedby={errors.service ? 'appointment-service-error' : undefined}>
-                    <option value="">Select speciality</option>
-                    <option>General Surgery</option><option>Proctology</option><option>Urology</option><option>Vision Care</option><option>Women’s Health</option><option>Orthopaedics</option><option>Aesthetic Care</option><option>ENT Care</option><option>Not sure yet</option>
+                    <option value="">Choose a Treatment</option>
+                    <option>Gynaecomastia</option><option>Circumcision</option><option>Lipoma</option><option>Hernia</option><option>Varicose Vein</option><option>Gallstones</option><option>Liposuction</option><option>Hair Transplant</option><option>Knee Replacement</option><option>Cataract</option>
                   </select>
                   {errors.service && <small id="appointment-service-error" className="field-error">{errors.service}</small>}
                 </div>
