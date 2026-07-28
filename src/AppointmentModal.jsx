@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import './AppointmentModal.css'
 
-const EMAIL_ENDPOINT = 'https://formsubmit.co/ajax/anandgowda704@gmail.com'
+const EMAIL_ENDPOINT = 'https://formsubmit.co/ajax/cureveya@gmail.com'
 
 const initialForm = {
   name: '',
