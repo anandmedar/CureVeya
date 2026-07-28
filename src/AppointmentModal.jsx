@@ -75,7 +75,7 @@ export default function AppointmentModal({ isOpen, onClose }) {
           speciality: form.service,
           preferred_callback_time: form.preferredTime || 'Not specified',
           message: form.message.trim() || 'No additional note provided.',
-          _subject: 'New CureVeya appointment enquiry',
+          _subject: `New CureVeya appointment enquiry from ${form.name.trim()}`,
           _template: 'table',
         }),
       })
