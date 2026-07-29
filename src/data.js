@@ -3,6 +3,7 @@ import circumcisionImg from './assets/treatment_images/Circumcision.png';
 import lipomaImg from './assets/treatment_images/Lipoma.png';
 import herniaImg from './assets/treatment_images/Hernia.png';
 import varicoseVeinImg from './assets/treatment_images/Varicose Vein.png';
+import pilesImg from './assets/treatment_images/Piles.png';
 import gallstonesImg from './assets/treatment_images/Gallstones.png';
 import liposuctionImg from './assets/treatment_images/Liposuction.png';
 import hairTransplantImg from './assets/treatment_images/Hair Transplant.png';
@@ -25,7 +26,11 @@ export const specialities = [
     title: 'Gynaecomastia',
     text: 'Confidential consultation and treatment for enlarged male breast tissue with advanced surgical care.',
   },
-  
+  {
+    image: pilesImg,
+    title: 'Piles',
+    text: 'Advanced treatment for hemorrhoids with minimally invasive procedures for faster recovery and lasting relief.',
+  },
   {
     image: varicoseVeinImg,
     title: 'Varicose Vein',
@@ -47,11 +52,6 @@ export const specialities = [
     text: 'Natural-looking hair restoration using advanced transplant techniques for lasting results.',
   },
   {
-    image: herniaImg,
-    title: 'Hernia',
-    text: 'Advanced hernia diagnosis and repair for faster recovery and improved quality of life.',
-  },
-  {
     image: kneeReplacementImg,
     title: 'Knee Replacement',
     text: 'Specialized knee replacement surgery to reduce pain and restore mobility with confidence.',
@@ -60,6 +60,11 @@ export const specialities = [
     image: cataractImg,
     title: 'Cataract',
     text: 'Advanced cataract surgery for clearer vision using safe and modern eye-care techniques.',
+  },
+  {
+    image: herniaImg,
+    title: 'Hernia',
+    text: 'Advanced hernia diagnosis and repair for faster recovery and improved quality of life.',
   },
 ];
 
