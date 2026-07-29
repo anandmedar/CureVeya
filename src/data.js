@@ -1,51 +1,63 @@
+import gynaecomastiaImg from './assets/treatment_images/Gynaecomastia.png';
+import circumcisionImg from './assets/treatment_images/Circumcision.png';
+import lipomaImg from './assets/treatment_images/Lipoma.png';
+import herniaImg from './assets/treatment_images/Hernia.png';
+import varicoseVeinImg from './assets/treatment_images/Varicose Vein.png';
+import gallstonesImg from './assets/treatment_images/Gallstones.png';
+import liposuctionImg from './assets/treatment_images/Liposuction.png';
+import hairTransplantImg from './assets/treatment_images/Hair Transplant.png';
+import kneeReplacementImg from './assets/treatment_images/Knee Replacement.png';
+import cataractImg from './assets/treatment_images/Cataract.png';
+
 export const specialities = [
   {
-    icon: '👨',
-    title: 'Gynaecomastia',
-    text: 'Confidential consultation and treatment for enlarged male breast tissue with advanced surgical care.',
-  },
-  {
-    icon: '✂️',
-    title: 'Circumcision',
-    text: 'Safe and comfortable circumcision procedures performed using modern surgical techniques.',
-  },
-  {
-    icon: '🟡',
+    image: lipomaImg,
     title: 'Lipoma',
     text: 'Expert evaluation and minimally invasive removal of painless fatty lumps with quick recovery.',
   },
   {
-    icon: '🩺',
-    title: 'Hernia',
-    text: 'Advanced hernia diagnosis and repair for faster recovery and improved quality of life.',
+    image: circumcisionImg,
+    title: 'Circumcision',
+    text: 'Safe and comfortable circumcision procedures performed using modern surgical techniques.',
   },
   {
-    icon: '🦵',
+    image: gynaecomastiaImg,
+    title: 'Gynaecomastia',
+    text: 'Confidential consultation and treatment for enlarged male breast tissue with advanced surgical care.',
+  },
+  
+  {
+    image: varicoseVeinImg,
     title: 'Varicose Vein',
     text: 'Modern treatments to relieve painful, swollen veins and restore healthy blood circulation.',
   },
   {
-    icon: '🪨',
+    image: gallstonesImg,
     title: 'Gallstones',
     text: 'Comprehensive care for gallbladder stones with minimally invasive surgical options.',
   },
   {
-    icon: '✨',
+    image: liposuctionImg,
     title: 'Liposuction',
     text: 'Body contouring procedures designed to remove stubborn fat and enhance body shape.',
   },
   {
-    icon: '💇',
+    image: hairTransplantImg,
     title: 'Hair Transplant',
     text: 'Natural-looking hair restoration using advanced transplant techniques for lasting results.',
   },
   {
-    icon: '🦿',
+    image: herniaImg,
+    title: 'Hernia',
+    text: 'Advanced hernia diagnosis and repair for faster recovery and improved quality of life.',
+  },
+  {
+    image: kneeReplacementImg,
     title: 'Knee Replacement',
     text: 'Specialized knee replacement surgery to reduce pain and restore mobility with confidence.',
   },
   {
-    icon: '👁️',
+    image: cataractImg,
     title: 'Cataract',
     text: 'Advanced cataract surgery for clearer vision using safe and modern eye-care techniques.',
   },
