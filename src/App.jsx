@@ -207,7 +207,9 @@ function App() {
                 key={service.title}
                 style={{ "--delay": `${index * 45}ms` }}
               >
-                <span className="service-icon">{service.icon}</span>
+                <div className="speciality-image">
+                  <img src={service.image} alt={service.title} />
+                </div>
                 <h3>{service.title}</h3>
                 <p>{service.text}</p>
                 <a href="#contact">
