@@ -1,45 +1,55 @@
 export const specialities = [
   {
-    icon: '✦',
-    title: 'General Surgery',
-    text: 'Guidance for planned procedures including hernia, gallbladder, appendix and lipoma care.',
+    icon: '👨',
+    title: 'Gynaecomastia',
+    text: 'Confidential consultation and treatment for enlarged male breast tissue with advanced surgical care.',
   },
   {
-    icon: '◌',
-    title: 'Proctology',
-    text: 'Private, respectful support for piles, fissure, fistula and related concerns.',
+    icon: '✂️',
+    title: 'Circumcision',
+    text: 'Safe and comfortable circumcision procedures performed using modern surgical techniques.',
   },
   {
-    icon: '⌁',
-    title: 'Urology',
-    text: 'Care coordination for kidney stones, prostate concerns and urinary procedures.',
+    icon: '🟡',
+    title: 'Lipoma',
+    text: 'Expert evaluation and minimally invasive removal of painless fatty lumps with quick recovery.',
   },
   {
-    icon: '◉',
-    title: 'Vision Care',
-    text: 'Clear next steps for cataract, refractive and other eye-care consultations.',
+    icon: '🩺',
+    title: 'Hernia',
+    text: 'Advanced hernia diagnosis and repair for faster recovery and improved quality of life.',
   },
   {
-    icon: '◇',
-    title: 'Women’s Health',
-    text: 'Thoughtful specialist support for gynaecological consultations and procedures.',
+    icon: '🦵',
+    title: 'Varicose Vein',
+    text: 'Modern treatments to relieve painful, swollen veins and restore healthy blood circulation.',
   },
   {
-    icon: '⌇',
-    title: 'Orthopaedics',
-    text: 'Support for mobility, joint and planned orthopaedic-care journeys.',
+    icon: '🪨',
+    title: 'Gallstones',
+    text: 'Comprehensive care for gallbladder stones with minimally invasive surgical options.',
   },
   {
-    icon: '◈',
-    title: 'Aesthetic Care',
-    text: 'Discreet consultations for hair restoration, body contouring and related care.',
+    icon: '✨',
+    title: 'Liposuction',
+    text: 'Body contouring procedures designed to remove stubborn fat and enhance body shape.',
   },
   {
-    icon: '∿',
-    title: 'ENT Care',
-    text: 'Specialist coordination for ear, nose, throat and voice-related concerns.',
+    icon: '💇',
+    title: 'Hair Transplant',
+    text: 'Natural-looking hair restoration using advanced transplant techniques for lasting results.',
   },
-]
+  {
+    icon: '🦿',
+    title: 'Knee Replacement',
+    text: 'Specialized knee replacement surgery to reduce pain and restore mobility with confidence.',
+  },
+  {
+    icon: '👁️',
+    title: 'Cataract',
+    text: 'Advanced cataract surgery for clearer vision using safe and modern eye-care techniques.',
+  },
+];
 
 export const journey = [
   ['01', 'Tell us what you need', 'Share your concern by phone or WhatsApp at a time that suits you.'],
@@ -51,36 +61,36 @@ export const journey = [
 
 export const careTopics = [
   {
-    name: 'Piles & Fissure Care',
-    concern: 'Discomfort, bleeding or uncertainty about the right specialist.',
-    consultation: 'Symptoms, suitable specialist options and the recommended care path.',
-    support: 'Appointment planning, hospital coordination and follow-up reminders.',
+    name: 'Gynaecomastia & Liposuction',
+    concern: 'Concerns about body appearance or excess chest fat affecting confidence.',
+    consultation: 'Treatment suitability, expected results and the recommended surgical approach.',
+    support: 'Consultation scheduling, hospital coordination and recovery guidance.',
   },
   {
-    name: 'Kidney Stone Care',
-    concern: 'Recurring pain or questions about treatment options and timing.',
-    consultation: 'Imaging history, symptoms and the clinician’s recommended next step.',
-    support: 'Consultation scheduling and clear preparation guidance.',
+    name: 'Circumcision & Lipoma',
+    concern: 'Questions about minor surgical procedures or painless lumps requiring evaluation.',
+    consultation: 'Symptoms, examination findings and the most suitable treatment options.',
+    support: 'Appointment planning, procedure preparation and follow-up assistance.',
   },
   {
-    name: 'Cataract & Vision Care',
-    concern: 'Changes in vision or questions about a planned eye procedure.',
-    consultation: 'Eye examination findings and procedure options with a specialist.',
-    support: 'Visit scheduling and practical post-consultation guidance.',
+    name: 'Hernia & Gallstones',
+    concern: 'Persistent pain or a diagnosed condition requiring planned surgery.',
+    consultation: 'Diagnosis review, procedure recommendations and pre-surgery preparation.',
+    support: 'Hospital coordination, scheduling and post-consultation guidance.',
   },
   {
-    name: 'Hernia & Gallbladder Care',
-    concern: 'A planned procedure and the need for a more organised care path.',
-    consultation: 'Your diagnosis, procedure recommendations and preparation needs.',
-    support: 'Coordination around timings, documents and hospital visits.',
+    name: 'Varicose Vein & Knee Replacement',
+    concern: 'Leg pain, swelling or reduced mobility affecting daily activities.',
+    consultation: 'Clinical assessment, imaging review and personalized treatment planning.',
+    support: 'Specialist appointments, hospital coordination and recovery support.',
   },
   {
-    name: 'Aesthetic Procedures',
-    concern: 'A private concern and a need for a sensitive, informed conversation.',
-    consultation: 'Goals, suitability and realistic treatment options with a specialist.',
-    support: 'Discreet coordination and practical appointment assistance.',
+    name: 'Hair Transplant & Cataract',
+    concern: 'Hair loss or vision changes impacting confidence and quality of life.',
+    consultation: 'Specialist evaluation, treatment options and expected outcomes.',
+    support: 'Appointment scheduling, procedure coordination and follow-up care assistance.',
   },
-]
+];
 
 export const faqs = [
   ['How do I book a consultation?', 'Call Coordinator or send a WhatsApp message. He will help identify a suitable next step and preferred time.'],
