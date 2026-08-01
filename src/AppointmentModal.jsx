@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import "./AppointmentModal.css";
 
-const EMAIL_ENDPOINT = "https://formsubmit.co/ajax/cureveya@gmail.com";
+const GOOGLE_SHEETS_ENDPOINT =
+  "https://script.google.com/macros/s/AKfycbwj_JIrwX97zKaSiihb7qzq_WaHY6d_o_K1HjqpmaiQITP-cbmjAuZunK0uX7aM4kox/exec";
 
 const initialForm = {
   name: "",
@@ -72,11 +73,14 @@ export default function AppointmentModal({ isOpen, onClose }) {
     setStatus("sending");
     setSubmitError("");
     try {
-      const response = await fetch(EMAIL_ENDPOINT, {
+      // Apps Script Web Apps do not provide a readable cross-origin response.
+      // A plain-text, no-cors POST lets the static site securely send the JSON
+      // payload without exposing any Google credentials in the browser.
+      await fetch(GOOGLE_SHEETS_ENDPOINT, {
         method: "POST",
+        mode: "no-cors",
         headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
+          "Content-Type": "text/plain;charset=utf-8",
         },
         body: JSON.stringify({
           name: form.name.trim(),
@@ -85,16 +89,13 @@ export default function AppointmentModal({ isOpen, onClose }) {
           speciality: form.service,
           preferred_callback_time: form.preferredTime || "Not specified",
           message: form.message.trim() || "No additional note provided.",
-          _subject: `New CureVeya appointment enquiry from ${form.name.trim()}`,
-          _template: "table",
         }),
       });
-      if (!response.ok) throw new Error("Unable to submit appointment");
       setStatus("success");
     } catch {
       setStatus("idle");
       setSubmitError(
-        "We could not send your request. Please try again or call Coordinator on +91-9036631244.",
+        "We could not save your request. Please try again or call Coordinator on +91-9036631244.",
       );
     }
   };
